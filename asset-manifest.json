@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/goldenappstudio/static/css/main.ef970cb9.chunk.css",
+    "main.js": "/goldenappstudio/static/js/main.dc5474fb.chunk.js",
+    "main.js.map": "/goldenappstudio/static/js/main.dc5474fb.chunk.js.map",
+    "runtime~main.js": "/goldenappstudio/static/js/runtime~main.370585f5.js",
+    "runtime~main.js.map": "/goldenappstudio/static/js/runtime~main.370585f5.js.map",
+    "static/js/2.105a6ef0.chunk.js": "/goldenappstudio/static/js/2.105a6ef0.chunk.js",
+    "static/js/2.105a6ef0.chunk.js.map": "/goldenappstudio/static/js/2.105a6ef0.chunk.js.map",
+    "index.html": "/goldenappstudio/index.html",
+    "precache-manifest.994a84acb9a69c51f47bb75572eadcc7.js": "/goldenappstudio/precache-manifest.994a84acb9a69c51f47bb75572eadcc7.js",
+    "service-worker.js": "/goldenappstudio/service-worker.js",
+    "static/css/main.ef970cb9.chunk.css.map": "/goldenappstudio/static/css/main.ef970cb9.chunk.css.map"
+  }
+}
