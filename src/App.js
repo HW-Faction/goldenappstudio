@@ -3,6 +3,8 @@ import "./App.css";
 
 import Header from "./components/Header/Header";
 import PrimaryMain from "./components/MainContent/PrimaryMain";
+import SecondaryMain from "./components/MainContent/SecondaryMain";
+import Footer from "./components/Footer/Footer";
 
 class App extends React.Component {
   render() {
@@ -10,6 +12,8 @@ class App extends React.Component {
       <div className="App">
         <Header />
         <PrimaryMain />
+        <SecondaryMain />
+        <Footer />
       </div>
     );
   }
