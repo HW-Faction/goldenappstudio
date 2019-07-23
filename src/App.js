@@ -1,20 +1,27 @@
 import React from "react";
 import "./App.css";
-
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import MainApp from "./components/MainApp/MainApp";
 import Header from "./components/Header/Header";
-import PrimaryMain from "./components/MainContent/PrimaryMain";
-import SecondaryMain from "./components/MainContent/SecondaryMain";
 import Footer from "./components/Footer/Footer";
+import Contact from "./components/MainApp/Contact";
 
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
+      <Router>
         <Header />
-        <PrimaryMain />
-        <SecondaryMain />
+        <div>
+          <Link to="/" />
+
+          <Link to="/contact" />
+
+          <Link to="/topics" />
+          <Route exact path="/" component={MainApp} />
+          <Route path="/contact" component={Contact} />
+        </div>
         <Footer />
-      </div>
+      </Router>
     );
   }
 }
