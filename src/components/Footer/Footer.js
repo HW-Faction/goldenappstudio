@@ -9,7 +9,8 @@ export default function Footer() {
             <div class="row content-row">
               <div class="col-12 col-md-8">
                 <h1 class="heading latoBlack mt-2">
-                  We have worked with some great clients!
+                  We have worked with some great clients and all of them are
+                  happy. So want to be happy ?
                 </h1>
               </div>
               <div class="col-12 col-md-4">
