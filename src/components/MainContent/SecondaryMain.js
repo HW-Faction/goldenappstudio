@@ -143,23 +143,6 @@ export default function SecondaryMain() {
               <p>We do your work as our own</p>
             </div>
             {/** Hats OFF */}
-            <section className="main-header__top-section css-flex css-flex-space-between">
-              <div class="main-header__top-section__list">
-                <ul class="dotted-list">
-                  <li>
-                    • Superior scan speed and extensive coverage of all web
-                    applications
-                  </li>
-                  <li>
-                    • Better scan accuracy with IAST technology guarantees low
-                    false positives
-                  </li>
-                  <li>
-                    • Built-in Vulnerability Management and compliance reporting
-                  </li>
-                </ul>
-              </div>
-            </section>
           </div>
         </div>
       </div>
