@@ -89,6 +89,7 @@ export default function SecondaryMain() {
               className="logo"
               style={{
                 padding: "25px 0 40px",
+
                 margin: "0 auto",
                 alignItems: "center",
                 justifyContent: "stretch",

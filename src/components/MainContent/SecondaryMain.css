@@ -712,3 +712,176 @@ a:hover {
 }
 
 /* CSS Rules for Acunetix, don't worry... */
+/*! CSS Used from: https://www.acunetix.com/wp-content/themes/acunetix/style.min.css ; media=all */
+@media all {
+  a {
+    background: 0 0;
+  }
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :after,
+  :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  a {
+    color: #e31e25;
+    text-decoration: none;
+  }
+  a:focus,
+  a:hover {
+    color: #a11419;
+    text-decoration: underline;
+  }
+  a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+  h1 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+  h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    margin: 0 0 10px;
+  }
+  ::selection {
+    background: #e3f4ff;
+  }
+  a {
+    transition: all 0.2s ease-in;
+  }
+  a:focus,
+  a:hover {
+    color: #333;
+    text-decoration-style: dotted;
+  }
+  * {
+    outline: 0 !important;
+  }
+  h1 {
+    font-weight: 700;
+  }
+  @media print {
+    * {
+      text-shadow: none !important;
+      color: #000 !important;
+      background: 0 0 !important;
+      box-shadow: none !important;
+    }
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+    a[href]:after {
+      content: " (" attr(href) ")";
+    }
+    p {
+      orphans: 3;
+      widows: 3;
+    }
+  }
+}
+/*! CSS Used from: https://www.acunetix.com/wp-content/themes/acunetix/blanklanding.css?ver=1553591962 ; media=all */
+@media all {
+  * {
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-size: 46px;
+    font-weight: 600;
+    text-transform: none;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+  }
+  .logo {
+    padding: 15px 0 15px;
+  }
+  .logo .logo__container a:hover {
+    color: #e31e25 !important;
+    text-decoration: none !important;
+  }
+  @media screen and (max-width: 991px) {
+    h1 {
+      font-size: 38px;
+    }
+    .logo {
+      padding: 15px 0 30px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    h1 {
+      font-size: 32px;
+    }
+  }
+  p {
+    margin: 0;
+  }
+  #main-header .logo {
+    text-align: center;
+  }
+}
+/*! CSS Used from: Embedded */
+#competitors_page h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2em;
+  margin: 0 0 10px;
+  text-transform: none;
+}
+#competitors_page p:empty {
+  display: none;
+}
+#competitors_page .logo {
+  padding: 25px 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+}
+#competitors_page .logo__container {
+  border: 1px solid #ffffff;
+  display: inline-block;
+  padding: 25px 35px;
+}
+#competitors_page .logo > div.line {
+  display: block;
+  border-top: 1px solid #fff;
+  min-width: 10px;
+  flex: 1;
+}
+@media screen and (max-width: 991px) {
+  #competitors_page h1 {
+    font-size: 32px;
+  }
+  #competitors_page .logo {
+    padding: 15px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  #competitors_page h1 {
+    font-size: 32px;
+  }
+}
