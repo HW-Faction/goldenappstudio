@@ -119,17 +119,47 @@ export default function SecondaryMain() {
                 <p>
                   <a href="//www.acunetix.com" target="_blank" rel="noopener" />
                 </p>
-                <h1 className="competitor-title">Acunetix vs Rapid7</h1>
+                <h1 className="competitor-title">
+                  <h1 id="GAS0" style={{ fontFamily: "Pacifico" }}>
+                    GoldenApp Studio
+                  </h1>{" "}
+                  vs{" "}
+                  <h1
+                    style={{
+                      fontFamily: "Pacifico"
+                    }}
+                  >
+                    Market
+                  </h1>
+                </h1>
               </div>
               <div className="line" />
             </div>
             {/** HELLO WORLD... */}
             <div className="main-header-container center-alignment">
               <header>
-                <h1>Industry-Leading Vulnerability Detection</h1>
+                <h1>We made software for creatures living on Earth</h1>
               </header>
-              <p>Entrust Acunetix with your website security</p>
+              <p>We do your work as our own</p>
             </div>
+            {/** Hats OFF */}
+            <section className="main-header__top-section css-flex css-flex-space-between">
+              <div class="main-header__top-section__list">
+                <ul class="dotted-list">
+                  <li>
+                    • Superior scan speed and extensive coverage of all web
+                    applications
+                  </li>
+                  <li>
+                    • Better scan accuracy with IAST technology guarantees low
+                    false positives
+                  </li>
+                  <li>
+                    • Built-in Vulnerability Management and compliance reporting
+                  </li>
+                </ul>
+              </div>
+            </section>
           </div>
         </div>
       </div>
