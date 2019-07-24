@@ -78,34 +78,34 @@ export default function SecondaryMain() {
         <div className="badges-container content-slide-top" />
       </main>
 
-      <section class="std-shared-module meet home">
-        <div class="inner bkg-light-gray-with-border">
-          <div class="row intro">
-            <div class="content">
-              <h2 class="title">Manage things that best for business</h2>
-              <p class="description">
+      <section className="std-shared-module meet home">
+        <div className="inner bkg-light-gray-with-border">
+          <div className="row intro">
+            <div className="content">
+              <h2 className="title">Manage things that best for business</h2>
+              <p className="description">
                 In today's world every organisation need an app and website to
                 manage their clients digitally. We provide best solution for
                 that in more than fair price
               </p>
             </div>
           </div>
-          <div class="row topics">
-            <div class="content icon-1">
-              <h3 class="subtitle icon-holder">Store</h3>
-              <p class="description-small">
+          <div className="row topics">
+            <div className="content icon-1">
+              <h3 className="subtitle icon-holder">Store</h3>
+              <p className="description-small">
                 Keep the record of your client for their best experience.
               </p>
             </div>
-            <div class="content icon-2">
-              <h3 class="subtitle icon-holder">Secure</h3>
-              <p class="description-small">
+            <div className="content icon-2">
+              <h3 className="subtitle icon-holder">Secure</h3>
+              <p className="description-small">
                 Secure your business in competetive market
               </p>
             </div>
-            <div class="content icon-3">
-              <h3 class="subtitle icon-holder">Access</h3>
-              <p class="description-small">
+            <div className="content icon-3">
+              <h3 className="subtitle icon-holder">Access</h3>
+              <p className="description-small">
                 Access to you clients in a better and fast way. Like every one
                 is doing in 21st century
               </p>
@@ -114,19 +114,19 @@ export default function SecondaryMain() {
         </div>
       </section>
 
-      <section class="std-shared-module std-text-image style-regular business-section">
-        <div class="inner bkg-teal js-lazy-bg-image js-fade-in">
-          <div class="row">
-            <div class="content">
-              <h2 class="title">
+      <section className="std-shared-module std-text-image style-regular business-section">
+        <div className="inner bkg-teal js-lazy-bg-image js-fade-in">
+          <div className="row">
+            <div className="content">
+              <h2 className="title">
                 Trust GoldenApp Studio and your trust will not fade
               </h2>
-              <p class="description">
+              <p className="description">
                 GoldenApp Studio is the company-wide solution for app
                 development that everyone will actually love using.
               </p>
-              <div class="btn style-outline">
-                <a class="el white" href="/business">
+              <div className="btn style-outline">
+                <a className="el white" href="/business">
                   Explore GoldenApp Studio Business
                 </a>
               </div>
@@ -137,25 +137,25 @@ export default function SecondaryMain() {
 
       {/** Third Section of Secondary Main Folks */}
 
-      <section class="std-shared-module getstarted">
-        <div class="inner bkg-white">
-          <div class="row reviews">
-            <div class="content text-content">
-              <h2 class="title">Don't wait. Get started today.</h2>
-              <p class="description">
+      <section className="std-shared-module getstarted">
+        <div className="inner bkg-white">
+          <div className="row reviews">
+            <div className="content text-content">
+              <h2 className="title">Don't wait. Get started today.</h2>
+              <p className="description">
                 Discover how much better life is when you never forget another
                 password.
               </p>
-              <div class="btn style-solid-iconless">
-                <a class="el orange" href="/plans">
+              <div className="btn style-solid-iconless">
+                <a className="el orange" href="/plans">
                   See all plans
                 </a>
               </div>{" "}
             </div>
-            <div class="grouped-content">
-              <div class="content">
-                <div class="sub-laurel">
-                  <div class="store-logo">
+            <div className="grouped-content">
+              <div className="content">
+                <div className="sub-laurel">
+                  <div className="store-logo">
                     <img
                       width="36"
                       height="41"
@@ -163,13 +163,13 @@ export default function SecondaryMain() {
                       alt="App Store"
                     />
                   </div>
-                  <span class="store-title">App Store</span>
-                  <span class="store-description">Editors' Choice</span>
+                  <span className="store-title">App Store</span>
+                  <span className="store-description">Editors' Choice</span>
                 </div>
               </div>
-              <div class="content">
-                <div class="sub-laurel">
-                  <div class="store-logo">
+              <div className="content">
+                <div className="sub-laurel">
+                  <div className="store-logo">
                     <img
                       width="40"
                       height="40"
@@ -177,26 +177,26 @@ export default function SecondaryMain() {
                       alt="Google Play"
                     />
                   </div>
-                  <span class="store-title">Google Play</span>
-                  <span class="store-description">Best App</span>
+                  <span className="store-title">Google Play</span>
+                  <span className="store-description">Best App</span>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row ratings">
-            <div class="content">
-              <div class="ratings-module white">
-                <div class="ratings-stars">
-                  <span class="star js-lazy-bg-image js-fade-in" />
-                  <span class="star js-lazy-bg-image js-fade-in" />
-                  <span class="star js-lazy-bg-image js-fade-in" />
-                  <span class="star js-lazy-bg-image js-fade-in" />
-                  <span class="star js-lazy-bg-image js-fade-in" />
+          <div className="row ratings">
+            <div className="content">
+              <div className="ratings-module white">
+                <div className="ratings-stars">
+                  <span className="star js-lazy-bg-image js-fade-in" />
+                  <span className="star js-lazy-bg-image js-fade-in" />
+                  <span className="star js-lazy-bg-image js-fade-in" />
+                  <span className="star js-lazy-bg-image js-fade-in" />
+                  <span className="star js-lazy-bg-image js-fade-in" />
                 </div>
-                <p class="ratings-title">
+                <p className="ratings-title">
                   50,000 five star reviews and counting.
                 </p>
-                <p class="ratings-link">
+                <p className="ratings-link">
                   <a href="/reviews">Read our customer reviews</a>
                 </p>
               </div>

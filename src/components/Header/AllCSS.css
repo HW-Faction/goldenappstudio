@@ -680,3 +680,121 @@ a.nav-link{font-size:15px;color:gray;}
 @font-face{font-family:MuseoRegular;src:url("https://www.tintash.com/fonts/Museo/Museo700-Regular.otf");}
 @font-face{font-family:MuseoRegular;src:url("https://www.tintash.com/fonts/Museo/Museo700-Regular.otf");}
 @font-face{font-family:'FontAwesome';src:url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.eot');src:url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),        url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff2') format('woff2'),        url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff') format('woff'),        url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.ttf') format('truetype'),        url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');font-weight:normal;font-style:normal;}
+
+
+/* Dashlane navbar CSS Rules... */
+
+/*! CSS Used from: Embedded */
+a,div,header,li,nav,ul{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+header,nav{display:block;}
+ul{list-style:none;}
+*,:after,:before{box-sizing:inherit;}
+a{color:#ff5412;transition:color 150ms;text-decoration:none;}
+a:visited{color:#ff5412;}
+a:active,a:hover{text-decoration:underline;color:#e44609;}
+button{margin-left:0;margin-right:0;}
+button::-moz-focus-inner{border:0;}
+.header-std{background-color:rgba(255,255,255,.95);border-bottom:1px solid #e7e7e7;display:flex;font-weight:500;justify-content:center;position:fixed;transition:background-color 150ms;width:100%;z-index:11;}
+.header-std.transparent{background-color:transparent;border-bottom:none;}
+.header-std .inner{align-items:center;display:flex;justify-content:space-between;height:80px;padding:0 40px;position:relative;transition:height 150ms;width:1280px;}
+@media (min-width:80em){
+.header-std .inner{padding:0 80px 0 40px;width:1360px;margin:0 -40px;}
+}
+.header-std .logo{background-repeat:no-repeat;background-size:141px 32px;height:32px;margin-left:-20px;min-width:141px;position:relative;text-indent:-9999px;z-index:12;}
+@media (min-width:24em){
+.header-std .logo{margin-left:0;}
+}
+@media (min-width:80em){
+.header-std .logo{margin-left:40px;}
+}
+.transparent.header-std .logo{background-image:url(https://d38muu3h4xeqr1.cloudfront.net/website/static/WN-1548/images/header/dashlane-logo.svg);}
+.header-std .logo{background-image:url(https://d38muu3h4xeqr1.cloudfront.net/website/static/WN-1548/images/header/dashlane-logo-teal.svg);}
+.header-std .logo:hover{text-decoration:none;}
+.header-std .navigation{align-items:center;display:flex;justify-content:flex-end;position:relative;margin-bottom:1px;}
+.header-std .desktop-list{font-size:14px;line-height:18px;letter-spacing:2px;font-family:'Roboto Mono','Courier New',monospace;height:35px;text-transform:uppercase;margin-bottom:1px;}
+.header-std .desktop-list-link{color:rgba(71,71,71,.7);}
+.transparent.header-std .desktop-list-link{color:#fff;}
+.header-std .desktop-sublist{background-color:#fff;display:none;font-size:12px;line-height:36px;letter-spacing:0;margin-left:-16px;min-width:200px;overflow:auto;padding:7px 0;position:fixed;box-shadow:0 2px 6px 0 rgba(0,0,0,.1);}
+.header-std .desktop-sublist-link{color:rgba(71,71,71,.7);}
+.header-std [class^=desktop-list-item]{position:relative;display:none;}
+@media (min-width:35.5em){
+.header-std [class^=desktop-list-item]:not(:first-child){margin-left:16px;}
+}
+@media (min-width:64em){
+.header-std [class^=desktop-list-item]{display:inline-block;}
+}
+.header-std .desktop-list-item-download{display:none;}
+@media (min-width:35.5em){
+.header-std .desktop-list-item-download{display:inline-flex;}
+}
+.header-std .mobile-list-link-download,.transparent.header-std .desktop-list-link-download{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTJweCIgaGVpZ2h0PSIxNXB4IiB2aWV3Qm94PSIwIDAgMTIgMTUiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8ZyBpZD0iaWNvbi9kb3dubG9hZCIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2LjAwMDAwMCwgOS41MDAwMDApIHJvdGF0ZSgtMjI1LjAwMDAwMCkgdHJhbnNsYXRlKC02LjAwMDAwMCwgLTkuNTAwMDAwKSB0cmFuc2xhdGUoMC4wMDAwMDAsIDMuMDAwMDAwKSIgc3Ryb2tlPSJyZ2IoMjU1LCAyNTUsIDI1NSkiPgogICAgICAgICAgICA8cGF0aCBkPSJNNi45MjY0Njg3Nyw1LjgwMDkxNzU5IEwxLjczMTYxNzE5LDUuODAwOTE3NTkiIGlkPSJTdHJva2UtMiI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNNi45MjY0Njg3NywxMC45OTU3NjkyIEw2LjkyNjQ2ODc3LDUuODAwOTE3NTkiIGlkPSJTdHJva2UtMyI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMC4zOTYxODAwMzcsMTIuMzMxMjA2MyBMNi45MjY0Njg3Nyw1LjgwMDkxNzU5IiBpZD0iU3Ryb2tlLTQiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTExLjkwMDEwNDIsNi45NjEzOTA4MiBMNS4zNjk4MTU1LDAuNDMxMTAyMDkzIiBpZD0iU3Ryb2tlLTQiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPgo=);}
+.header-std .desktop-list-link-download{background-color:transparent;border:1px solid #ff5412;background-position:calc(100% - 12px) 10px;background-repeat:no-repeat;color:#ff5412;letter-spacing:0;font-family:'Roboto Mono','Courier New',monospace;font-size:15px;font-weight:500;padding:8px 32px 9px 14px;text-transform:initial;transition:background-color 150ms ease-out,background-image 150ms ease-out,background-position 150ms ease-out,color 150ms,border 150ms;}
+.header-std .desktop-list-link-download:focus,.header-std .desktop-list-link-download:hover{background-position:calc(100% - 12px) 12px;color:#e44609;border:1px solid #e44609;}
+.transparent.header-std .desktop-list-link-download{color:rgba(255,255,255,.7);border:1px solid rgba(255,255,255,.7);}
+.transparent.header-std .desktop-list-link-download:focus,.transparent.header-std .desktop-list-link-download:hover{color:#fff;border:1px solid #fff;}
+.header-std .desktop-list-link{position:relative;display:inline-block;margin-bottom:12px;}
+.header-std .desktop-list-link.active,.header-std .desktop-list-link:focus,.header-std .desktop-list-link:hover{color:#474747;font-weight:600;}
+.transparent.header-std .desktop-list-link.active,.transparent.header-std .desktop-list-link:focus,.transparent.header-std .desktop-list-link:hover{color:#fff;font-weight:600;}
+.header-std .desktop-sublist-link{padding:5px 16px;}
+.header-std .desktop-sublist-link:hover{color:#007c97;font-weight:600;}
+.header-std .desktop-sublist-link:hover::before{content:'';display:block;margin-top:10px;position:absolute;left:0;width:3px;height:16px;background-color:#007c97;}
+.header-std [class*=list-link]{text-decoration:none;}
+.header-std [class*=dropdown-trigger]{background-color:transparent;background-position:center;background-repeat:no-repeat;border:none;cursor:pointer;height:16px;margin:-10px;outline:0;padding:12px;width:37px;vertical-align:middle;transform:rotate(180deg);transition:transform 250ms;}
+.transparent.header-std [class*=dropdown-trigger]{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSI4IiB2aWV3Qm94PSIwIDAgMTMgOCI+CiAgICA8cGF0aCBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik02LjUgMy4xMzdsNC4yNTEgNC4wNzVhMS4wNDcgMS4wNDcgMCAwIDAgMS40NDkgMCAuOTYyLjk2MiAwIDAgMCAwLTEuMzg4bC00LjgzLTQuNjMtLjYxOC0uNTkzYS4zNjUuMzY1IDAgMCAwLS41MDQgMGwtLjYxOS41OTNMLjggNS44MjRhLjk2Mi45NjIgMCAwIDAgMCAxLjM4OCAxLjA0NyAxLjA0NyAwIDAgMCAxLjQ0OSAwTDYuNSAzLjEzN3oiLz4KPC9zdmc+Cg==);}
+.header-std [class*=dropdown-trigger]{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSI4IiB2aWV3Qm94PSIwIDAgMTMgOCI+CiAgICA8cGF0aCBmaWxsPSIjNDc0NzQ3IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik02LjUgMy4xMzdsNC4yNTEgNC4wNzVhMS4wNDcgMS4wNDcgMCAwIDAgMS40NDkgMCAuOTYyLjk2MiAwIDAgMCAwLTEuMzg4bC00LjgzLTQuNjMtLjYxOC0uNTkzYS4zNjUuMzY1IDAgMCAwLS41MDQgMGwtLjYxOS41OTNMLjggNS44MjRhLjk2Mi45NjIgMCAwIDAgMCAxLjM4OCAxLjA0NyAxLjA0NyAwIDAgMCAxLjQ0OSAwTDYuNSAzLjEzN3oiLz4KPC9zdmc+Cg==);}
+.header-std [class*=sublist-link]{display:block;}
+.header-std [class^=mobile-list-link]{padding:24px 20px;}
+@media (min-width:24em){
+.header-std [class^=mobile-list-link]{padding:24px 40px;}
+}
+.header-std .mobile-list{background-color:#fff;font-size:14px;line-height:18px;letter-spacing:2px;font-family:'Roboto Mono','Courier New',monospace;height:100vh;left:0;margin-top:-100vh;opacity:0;overflow:auto;padding-bottom:52px;padding-top:108px;position:fixed;text-transform:uppercase;top:0;transition:opacity .5s,margin-top .5s;-webkit-text-size-adjust:100%;width:100vw;z-index:11;}
+@media (min-width:64em){
+.header-std .mobile-list{display:none;}
+}
+.header-std .mobile-list-link,.header-std .mobile-sublist-link{color:rgba(71,71,71,.7);}
+.header-std .mobile-list-link.active{font-weight:600;color:#474747;}
+.header-std .mobile-list-item-page:not(:first-of-type) .mobile-list-link::before{content:'';display:block;position:relative;top:-25px;height:1px;width:100%;background-color:#e7e7e7;}
+.header-std .mobile-sublist{background-color:#e7e7e7;display:none;flex-direction:column;overflow:auto;padding:10px 0 10px 20px;}
+@media (min-width:24em){
+.header-std .mobile-sublist{padding:10px 0 10px 40px;}
+}
+.header-std .mobile-sublist-link{padding:16px 20px;}
+@media (min-width:24em){
+.header-std .mobile-sublist-link{padding:16px 40px;}
+}
+.header-std [class^=mobile-list-item]{display:flex;flex-direction:column;position:relative;}
+.header-std .mobile-list-link-download{color:#fff;background-color:#ff5412;box-shadow:inset 0 1px 0 0 #ff8350;font-family:'Roboto Mono','Courier New',monospace;text-transform:initial;letter-spacing:0;background-position:calc(100% - 20px) 20px;background-repeat:no-repeat;bottom:-52px;padding:18px 43px 18px 20px;position:fixed;width:100%;}
+@media (min-width:24em){
+.header-std .mobile-list-link-download{background-position:40px 20px;padding:18px 20px 18px 63px;}
+}
+.header-std .cross,.header-std .hamburger{background-color:transparent;background-repeat:no-repeat;border:none;color:#fff;cursor:pointer;height:35px;margin-right:-52px;position:relative;text-indent:-9999px;width:80px;z-index:12;}
+.header-std .cross:focus,.header-std .hamburger:focus{outline:0;}
+@media (min-width:64em){
+.header-std .cross,.header-std .hamburger{display:none;}
+}
+.header-std .hamburger{background-position:32px 12px;opacity:1;transition:opacity 250ms;}
+.transparent.header-std .hamburger{background-image:url(https://d38muu3h4xeqr1.cloudfront.net/website/static/WN-1548/images/header/hamburger-white.svg);}
+.header-std .hamburger{background-image:url(https://d38muu3h4xeqr1.cloudfront.net/website/static/WN-1548/images/header/hamburger-gray.svg);}
+.header-std .cross{position:absolute;top:0;right:0;margin-left:52px;background-image:url(https://d38muu3h4xeqr1.cloudfront.net/website/static/WN-1548/images/header/btn-close-gray.svg);background-position:34px 12px;opacity:0;transition:opacity 250ms,transform .5s;}
+@media (min-width:24em){
+.header-std .cross,.header-std .hamburger{margin-right:-32px;}
+.header-std .cross{margin-left:32px;}
+}
+@media (min-width:80em){
+.header-std [class^=desktop-list-item]:not(:first-child){margin-left:24px;}
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:300;src:local('Roboto Mono Light'), local('RobotoMono-Light'), url(https://fonts.gstatic.com/s/robotomono/v7/L0xkDF4xlVMF-BfR8bXMIjDgiWq8f7-7Ag.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:300;src:local('Roboto Mono Light'), local('RobotoMono-Light'), url(https://fonts.gstatic.com/s/robotomono/v7/L0xkDF4xlVMF-BfR8bXMIjDgiWq1f7-7Ag.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:300;src:local('Roboto Mono Light'), local('RobotoMono-Light'), url(https://fonts.gstatic.com/s/robotomono/v7/L0xkDF4xlVMF-BfR8bXMIjDgiWq9f7-7Ag.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:300;src:local('Roboto Mono Light'), local('RobotoMono-Light'), url(https://fonts.gstatic.com/s/robotomono/v7/L0xkDF4xlVMF-BfR8bXMIjDgiWqyf7-7Ag.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:300;src:local('Roboto Mono Light'), local('RobotoMono-Light'), url(https://fonts.gstatic.com/s/robotomono/v7/L0xkDF4xlVMF-BfR8bXMIjDgiWq-f7-7Ag.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:300;src:local('Roboto Mono Light'), local('RobotoMono-Light'), url(https://fonts.gstatic.com/s/robotomono/v7/L0xkDF4xlVMF-BfR8bXMIjDgiWq_f7-7Ag.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:300;src:local('Roboto Mono Light'), local('RobotoMono-Light'), url(https://fonts.gstatic.com/s/robotomono/v7/L0xkDF4xlVMF-BfR8bXMIjDgiWqxf78.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:400;src:local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhGq3-OXg.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:400;src:local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhPq3-OXg.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:400;src:local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhHq3-OXg.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:400;src:local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhIq3-OXg.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:400;src:local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhEq3-OXg.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:400;src:local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhFq3-OXg.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:400;src:local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}

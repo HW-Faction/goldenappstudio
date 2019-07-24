@@ -27,121 +27,71 @@ export default class Header extends Component {
   render() {
     return (
       <div>
-        <div className="container-fluid px-0">
-          <div className="nav-position navbar-transparent">
-            <div
-              className="container"
-              style={
-                this.state.isTop
-                  ? { backgroundColor: "none" }
-                  : { backgroundColor: "#8a2be2" }
-              }
-            >
-              <div className="row justify-content-center align-items-center">
-                <div className="col-12">
-                  {/*  <nav
-                id="nav"
-                className="navbar navbar-expand-lg sticky-top navbar-light bg-white px-0"
-              > */}
-                  <nav
-                    id="nav"
-                    className="navbar navbar-expand-lg sticky-top navbar-light px-0"
-                  >
-                    <h1 style={{ color: "orange" }}>Golden App Studio</h1>
-                    {/*  <div className="head-top " /> */}
-                    {/*  <a
-                      className="navbar-brand nav-width py-md-0"
-                      href="https://www.tintash.com"
+        <header
+          className="header-std js-header transparent"
+          style={
+            this.state.isTop
+              ? { backgroundColor: "none" }
+              : { backgroundColor: "#8a2be2", width: "100%" }
+          }
+        >
+          <div className="inner">
+            <a className="logo" href="/">
+              GAS
+            </a>
+            <nav className="navigation navbar navbar-expand-md">
+              <button
+                className="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span className="navbar-toggler-icon" />
+              </button>
+              <div
+                className="collapse navbar-collapse"
+                id="navbarTogglerDemo01"
+              >
+                <ul className="desktop-list navbar-nav">
+                  <li className="desktop-list-item-page nav-item">
+                    <a href="/about" className="desktop-list-link nav-link">
+                      About Us
+                    </a>
+                  </li>
+                  <li className="desktop-list-item-page nav-item">
+                    <a href="#services" className="desktop-list-link nav-link">
+                      Services
+                    </a>
+                  </li>
+
+                  <li className="desktop-list-item-page nav-item">
+                    <a
+                      href="https://app.dashlane.com"
+                      target="_blank"
+                      rel="noopener nofollow noreferrer"
+                      className="desktop-list-link nav-link"
                     >
-                      <img
-                        width="140"
-                        id="logo-sticky"
-                        className="img-fluid navbar-logo hide"
-                        src="https://www.tintash.com/images/header-footer/Tintash Logo.png"
-                        alt="Tintash Logo"
-                      />
-                      <img
-                        width="140"
-                        id="logo"
-                        className="img-fluid navbar-logo show"
-                        src="https://www.tintash.com/images/header-footer/Tintash-logo-hd.png"
-                        alt="Tintash Logo"
-                      />
-                    </a> */}
-                    {/*  <a
-                  className="btn btn-success idea latoRegular mobile ml-auto mr-2"
-                  style={{ color: "#ffffff" }}
-                >
-                  <img
-                    width="25px"
-                    height="25px"
-                    src="https://www.tintash.com/images/header-footer/budget.svg"
-                  />
-                </a> */}
-                    <button
-                      className="navbar-toggler collapsed"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#navbarToggler"
-                      aria-controls="navbarTogglerDemo03"
-                      aria-expanded="false"
-                      aria-label="Toggle navigation"
+                      Portfolio
+                    </a>
+                  </li>
+                  <li className="desktop-list-item-page nav-item">
+                    <a
+                      href="https://app.dashlane.com"
+                      target="_blank"
+                      rel="noopener nofollow noreferrer"
+                      className="desktop-list-link nav-link"
                     >
-                      <span className="navbar-toggler-icon " />
-                    </button>
-                    <div
-                      className="navbar-collapse collapse"
-                      id="navbarToggler"
-                      style={{ height: 0 }}
-                      aria-expanded="false"
-                    >
-                      <ul className="navbar-nav ml-auto">
-                        <li className="nav-item ml-lg-0 ml-md-3 mr-md-3 mt-md-0 ml-sm-0 mr-sm-0 mt-sm-0 latoBold">
-                          <a
-                            className="nav-link nav-link-text"
-                            href="https://www.tintash.com/about-us"
-                          >
-                            About Us
-                          </a>
-                        </li>
-                        <li className="nav-item ml-lg-0 ml-md-3 mr-md-3 mt-md-0 ml-sm-0 mr-sm-0 mt-sm-0">
-                          <a
-                            className="nav-link nav-link-text"
-                            href="#services"
-                          >
-                            Services
-                          </a>
-                        </li>
-                        <li className="nav-item ml-lg-0 ml-md-3 mr-md-3 mt-md-0 ml-sm-0 mr-sm-0 mt-sm-0">
-                          <a className="nav-link nav-link-text" href="#">
-                            Portfolio
-                          </a>
-                        </li>
-                        <li className="nav-item ml-lg-0 ml-md-3  mt-md-0 ml-sm-0 mr-sm-0 mt-sm-0">
-                          <a
-                            className="nav-link nav-link-text"
-                            style={{ color: "#0EC573" }}
-                            href="#contact"
-                          >
-                            Contact Us
-                          </a>
-                        </li>
-                        {/*  <li className="nav-item desktop">
-                      <a
-                        className="btn btn-success idea latoRegular"
-                        style={{ color: "#ffffff" }}
-                      >
-                        Get an Instant Ballpark
-                      </a>
-                    </li> */}
-                      </ul>
-                    </div>
-                  </nav>
-                </div>
+                      Contact Us
+                    </a>
+                  </li>
+                </ul>
               </div>
-            </div>
+            </nav>
           </div>
-        </div>
+        </header>
       </div>
     );
   }

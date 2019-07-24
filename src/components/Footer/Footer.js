@@ -4,19 +4,19 @@ export default function Footer() {
   return (
     <div>
       <footer className="footer" id="contact">
-        <div class="initial-section">
-          <div class="container">
-            <div class="row content-row">
-              <div class="col-12 col-md-8">
-                <h1 class="heading latoBlack mt-2">
+        <div className="initial-section">
+          <div className="container">
+            <div className="row content-row">
+              <div className="col-12 col-md-8">
+                <h1 className="heading latoBlack mt-2">
                   We have worked with some great clients and all of them are
                   happy. So want to be happy ?
                 </h1>
               </div>
-              <div class="col-12 col-md-4">
+              <div className="col-12 col-md-4">
                 <a
                   href="#"
-                  class="portfolio-link btn btn-outline-light latoRegular px-lg-5"
+                  className="portfolio-link btn btn-outline-light latoRegular px-lg-5"
                 >
                   See Our Portfolio
                 </a>
@@ -27,45 +27,45 @@ export default function Footer() {
 
         {/*contact section */}
 
-        <div class="pt-4 signup-section">
-          <div class="container">
+        <div className="pt-4 signup-section">
+          <div className="container">
             <form
               id="footer-form"
-              class="email-form-footer footer__signup px-3 px-md-0"
-              autocomplete="off"
+              className="email-form-footer footer__signup px-3 px-md-0"
+              autoComplete="off"
             >
-              <h4 class="latoBlack heading text-white">Contact Us</h4>
+              <h4 className="latoBlack heading text-white">Contact Us</h4>
 
-              <div class="form-row">
-                <div class="col-md-12 col-lg-4">
+              <div className="form-row">
+                <div className="col-md-12 col-lg-4">
                   <input
                     id="footer__email-input"
-                    class="form-control footer-input mb-3"
+                    className="form-control footer-input mb-3"
                     type="text"
                     name="name"
                     placeholder="Name"
                     required=""
                   />
                 </div>
-                <div class="col-md-12 col-lg-4">
+                <div className="col-md-12 col-lg-4">
                   <input
                     id="footer__email-input"
-                    class="form-control footer-input email-input mb-3"
+                    className="form-control footer-input email-input mb-3"
                     type="email"
                     name="email"
                     placeholder="Email Address"
                     required=""
                   />
                 </div>
-                <div class="col-md-12 col-lg-4">
+                <div className="col-md-12 col-lg-4">
                   <select
                     name="source"
-                    class="form-control footer-input source-input-select"
+                    className="form-control footer-input source-input-select"
                     id="source"
                     placeholder="Source"
                     required=""
                   >
-                    <option value="" disabled="" selected="">
+                    <option defaultValue="Google" disabled="">
                       How did you hear about us
                     </option>
                     <option value="Google">Google</option>
@@ -78,20 +78,20 @@ export default function Footer() {
                     <option value="Other">Other</option>
                   </select>
                 </div>
-                <div class="col-md-12 col-lg-4">
+                <div className="col-md-12 col-lg-4">
                   <input
                     id="footer__email-input"
-                    class="form-control footer-input email-input mb-3"
+                    className="form-control footer-input email-input mb-3"
                     type="text"
                     name="company"
                     placeholder="Company"
                     required=""
                   />
                 </div>
-                <div class="col-md-12 col-lg-8">
+                <div className="col-md-12 col-lg-8">
                   <input
                     id="footer__email-input"
-                    class="form-control footer-input email-input mb-3"
+                    className="form-control footer-input email-input mb-3"
                     type="text"
                     name="about"
                     placeholder="How can we help?"
@@ -99,17 +99,17 @@ export default function Footer() {
                   />
                 </div>
               </div>
-              <div class="form-row">
-                <div class="col-md-12 col-lg-8">
-                  <div class="form-group">
-                    <div class="form-check pl-0">
+              <div className="form-row">
+                <div className="col-md-12 col-lg-8">
+                  <div className="form-group">
+                    <div className="form-check pl-0">
                       <input
                         type="checkbox"
                         name="checkbox"
                         id="nda"
                         value="value"
                       />
-                      <label class="text-white mb-0" for="nda">
+                      <label className="text-white mb-0" htmlFor="nda">
                         Please send me a Non Disclosure Agreement for a
                         Confidential Consultation
                       </label>
@@ -117,7 +117,7 @@ export default function Footer() {
                   </div>
                   <div
                     id="recaptcha"
-                    class="g-recaptcha mb-3"
+                    className="g-recaptcha mb-3"
                     data-sitekey="6LdRyI8UAAAAAFZ7xNVZGrR3KEYcXoVr5mx8CSHl"
                     data-callback="onSubmission"
                   >
@@ -129,7 +129,7 @@ export default function Footer() {
                           height="78"
                           role="presentation"
                           name="a-hbyxgi5pqtz7"
-                          frameborder="0"
+                          frameBorder="0"
                           scrolling="no"
                           sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
                         />
@@ -137,7 +137,7 @@ export default function Footer() {
                       <textarea
                         id="g-recaptcha-response"
                         name="g-recaptcha-response"
-                        class="g-recaptcha-response"
+                        className="g-recaptcha-response"
                         style={{
                           width: "250px",
                           height: "40px",
@@ -151,85 +151,85 @@ export default function Footer() {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-12 col-lg-4">
+                <div className="col-md-12 col-lg-4">
                   <input
                     type="submit"
-                    class="btn btn-block btn-success signup-btn"
+                    className="btn btn-block btn-success signup-btn"
                     value="Get Started"
                   />
                 </div>
               </div>
             </form>
-            <div class="signup__success_footer  proximaNovaLight col-12 text-center">
-              <div class="row mw-100">
-                <div class="col-12 pl-3">
+            <div className="signup__success_footer  proximaNovaLight col-12 text-center">
+              <div className="row mw-100">
+                <div className="col-12 pl-3">
                   Thank you, our team will be in touch soon
                 </div>
               </div>
             </div>{" "}
-            <div class="signup__error proximaNovaLight">
-              <i class="fa fa-check text-white mr-3" />
+            <div className="signup__error proximaNovaLight">
+              <i className="fa fa-check text-white mr-3" />
               Oops, we ran into an error, please try again.
             </div>
           </div>
         </div>
 
         {/* address section  */}
-        <div class="address-section">
-          <div class="container">
-            <div class="row justify-content-center text-align-center py-5">
-              <div class="col-12 mt-5">
-                <div class="row">
-                  <div class="col-lg-4 col-md-6">
-                    <h2 class="latoBold heading text-white">Addresses</h2>
+        <div className="address-section">
+          <div className="container">
+            <div className="row justify-content-center text-align-center py-5">
+              <div className="col-12 mt-5">
+                <div className="row">
+                  <div className="col-lg-4 col-md-6">
+                    <h2 className="latoBold heading text-white">Addresses</h2>
                     <ul>
-                      <li class="city">
-                        <a href="" class="city" target="_blank">
-                          <span class="latoRegular">Seattle,</span>&nbsp;
-                          <span class="latoBold">USA</span>
+                      <li className="city">
+                        <a href="" className="city" target="_blank">
+                          <span className="latoRegular">Seattle,</span>&nbsp;
+                          <span className="latoBold">USA</span>
                         </a>
                       </li>
                       <li>
-                        <a href="#" class="city" target="_blank">
-                          <span class="latoRegular">Toronto,</span>&nbsp;
-                          <span class="latoBold">Canada</span>
+                        <a href="#" className="city" target="_blank">
+                          <span className="latoRegular">Toronto,</span>&nbsp;
+                          <span className="latoBold">Canada</span>
                         </a>
                       </li>
-                      <li class="city">
-                        <a href="#" class="city" target="_blank">
-                          <span class="latoRegular">Bhiwani,</span>&nbsp;
-                          <span class="latoBold">India</span>
+                      <li className="city">
+                        <a href="#" className="city" target="_blank">
+                          <span className="latoRegular">Bhiwani,</span>&nbsp;
+                          <span className="latoBold">India</span>
                         </a>
                       </li>
-                      <li class="city">
-                        <a href="#" class="city" target="_blank">
-                          <span class="latoRegular">Remote,</span>&nbsp;
-                          <span class="latoBold">Earth</span>
+                      <li className="city">
+                        <a href="#" className="city" target="_blank">
+                          <span className="latoRegular">Remote,</span>&nbsp;
+                          <span className="latoBold">Earth</span>
                         </a>
                       </li>
                     </ul>
                   </div>
 
-                  <div class="col-lg-4 col-md-6 footer_address mb-5">
-                    <h2 class="latoBold heading text-white">
+                  <div className="col-lg-4 col-md-6 footer_address mb-5">
+                    <h2 className="latoBold heading text-white">
                       Come work with us!
                     </h2>
-                    <p class="latoRegular description">
+                    <p className="latoRegular description">
                       We are always looking for great people with talent to join
                       our teams.
                     </p>
 
-                    {/*  <!-- <h3 class="latoBold subheading text-white">Join Us</h3> --> */}
-                    <a class="latoRegular description careers" href="#">
+                    {/*  <!-- <h3 className="latoBold subheading text-white">Join Us</h3> --> */}
+                    <a className="latoRegular description careers" href="#">
                       {" "}
                       <b>Careers</b>
                     </a>
-                    {/* <!-- <a href="mailto:careers@tintash.com" class="latoRegular description text-green">careers@tintash.com</a> --> */}
+                    {/* <!-- <a href="mailto:careers@tintash.com" className="latoRegular description text-green">careers@tintash.com</a> --> */}
                     <br />
                   </div>
 
-                  <div class="col-lg-4 col-md-6 footer_address social-icons">
-                    <h2 class="latoBold heading text-white">Social</h2>
+                  <div className="col-lg-4 col-md-6 footer_address social-icons">
+                    <h2 className="latoBold heading text-white">Social</h2>
 
                     <a href="#" target="_blank">
                       <img
@@ -238,7 +238,7 @@ export default function Footer() {
                       />
                     </a>
 
-                    <a class="px-3" href="#" target="_blank">
+                    <a className="px-3" href="#" target="_blank">
                       <img
                         src="https://www.tintash.com/images/header-footer/social/twitter-Icon.svg"
                         alt="Tintash twitter"
@@ -259,22 +259,22 @@ export default function Footer() {
         </div>
 
         {/* bottam bar  */}
-        <div class="bottom-bar clearfix">
-          <div class="container h-100">
-            <div class="row justify-content-center align-items-center h-100">
-              <div class="col-lg-6 col-md-6 col-12">
-                <p class="float-left latoBold mb-0 copy-right">
+        <div className="bottom-bar clearfix">
+          <div className="container h-100">
+            <div className="row justify-content-center align-items-center h-100">
+              <div className="col-lg-6 col-md-6 col-12">
+                <p className="float-left latoBold mb-0 copy-right">
                   Copyright 2019 GoldenApp Studio - All Rights Reserved
                 </p>
-                <div class="break">
+                <div className="break">
                   <br />
                 </div>
-                <a class="pl-lg-3 latoBold privacy" href="#">
+                <a className="pl-lg-3 latoBold privacy" href="#">
                   Privacy Policy
                 </a>
               </div>
-              <div class="col-6 col-md-6 col-12">
-                <p id="Top" class="latoBold text-white mb-0 back-top">
+              <div className="col-6 col-md-6 col-12">
+                <p id="Top" className="latoBold text-white mb-0 back-top">
                   Back To Top
                 </p>
               </div>
