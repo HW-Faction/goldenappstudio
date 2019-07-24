@@ -7,7 +7,6 @@ export default class MainApp extends Component {
     return (
       <div>
         <SecondaryMain />
-        <PrimaryMain />
       </div>
     );
   }

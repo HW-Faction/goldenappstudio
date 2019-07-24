@@ -38,7 +38,6 @@ export default function SecondaryMain() {
           </div>
         </div>
       </section>
-
       <section className="std-shared-module std-text-image style-regular business-section">
         <div className="inner bkg-teal js-lazy-bg-image js-fade-in">
           <div className="row">
@@ -59,8 +58,73 @@ export default function SecondaryMain() {
           </div>
         </div>
       </section>
-
       {/** Third Section of Secondary Main Folks */}
+      <div
+        id="competitors_page"
+        style={{
+          textAlign: "center"
+        }}
+      >
+        <div
+          className="wrapper"
+          style={{
+            textAlign: "center"
+          }}
+        >
+          <div
+            id="main-header"
+            className="main-header"
+            style={{
+              backgroundImage:
+                "url(" +
+                "https://www.acunetix.com/wp-content/uploads/2018/05/competitors-background.png" +
+                ")",
+              backgroundSize: "cover",
+              color: "#ffffff",
+              paddingTop: 0,
+              textAlign: "center"
+            }}
+          >
+            <div
+              className="logo"
+              style={{
+                padding: "25px 0 40px",
+                margin: "0 auto",
+                alignItems: "center",
+                justifyContent: "stretch",
+                textAlign: "center"
+              }}
+            >
+              <div
+                className="line"
+                style={{
+                  display: "block",
+                  borderTop: "1px solid #fff",
+                  minWidth: "10px",
+                  margin: "auto auto auto 0",
+                  textAlign: "center",
+                  alignItems: "center",
+                  flex: 1
+                }}
+              />
+              <div
+                className="logo__container"
+                style={{
+                  border: "1px solid #ffffff",
+                  display: "inline-block",
+                  padding: "25px 35px"
+                }}
+              >
+                <p>
+                  <a href="//www.acunetix.com" target="_blank" rel="noopener" />
+                </p>
+                <h1 className="competitor-title">Acunetix vs Rapid7</h1>
+              </div>
+              <div className="line" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
