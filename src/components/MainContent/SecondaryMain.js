@@ -123,6 +123,13 @@ export default function SecondaryMain() {
               </div>
               <div className="line" />
             </div>
+            {/** HELLO WORLD... */}
+            <div className="main-header-container center-alignment">
+              <header>
+                <h1>Industry-Leading Vulnerability Detection</h1>
+              </header>
+              <p>Entrust Acunetix with your website security</p>
+            </div>
           </div>
         </div>
       </div>
