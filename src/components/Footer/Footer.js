@@ -56,31 +56,6 @@ export default function Footer() {
                     {/* <!-- <a href="mailto:careers@tintash.com" className="latoRegular description text-green">careers@tintash.com</a> --> */}
                     <br />
                   </div>
-
-                  <div className="col-lg-4 col-md-6 footer_address social-icons">
-                    <h2 className="latoBold heading text-white">Social</h2>
-
-                    <a href="#" target="_blank">
-                      <img
-                        src="https://www.tintash.com/images/header-footer/social/facebook-icon.svg"
-                        alt="Tintash facebook"
-                      />
-                    </a>
-
-                    <a className="px-3" href="#" target="_blank">
-                      <img
-                        src="https://www.tintash.com/images/header-footer/social/twitter-Icon.svg"
-                        alt="Tintash twitter"
-                      />
-                    </a>
-
-                    <a href="#" target="_blank">
-                      <img
-                        src="https://www.tintash.com/images/header-footer/social/linkedin-Icon.svg"
-                        alt="Tintash linkedin"
-                      />
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -101,11 +76,6 @@ export default function Footer() {
                 <a className="pl-lg-3 latoBold privacy" href="#">
                   Privacy Policy
                 </a>
-              </div>
-              <div className="col-6 col-md-6 col-12">
-                <p id="Top" className="latoBold text-white mb-0 back-top">
-                  Back To Top
-                </p>
               </div>
             </div>
           </div>
