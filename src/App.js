@@ -5,14 +5,14 @@ import MainApp from "./components/MainApp/MainApp";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/MainApp/Contact";
-import HEadFirst from "./HEadFirst";
+import HEadFirst from "./components/Header/HEadFirst";
 
 class App extends React.Component {
   render() {
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <div>
-          <Header />
+          <HEadFirst />
           <Link to="/" />
 
           <Link to="/contact" />
