@@ -63,23 +63,39 @@ export default function Footer() {
         </div>
 
         {/* bottam bar  */}
-        <div className="bottom-bar clearfix">
-          <div className="container h-100">
-            <div className="row justify-content-center align-items-center h-100">
-              <div className="col-lg-6 col-md-6 col-12">
-                <p className="float-left latoBold mb-0 copy-right">
-                  Copyright 2019 GoldenApp Studio - All Rights Reserved
+        <footer class="footer-std footer-mentions">
+          <div class="inner">
+            <div class="horizontal-box">
+              <div class="column-double">
+                <p class="caption" style={{ fontSize: "25px" }}>
+                  © 2019 GoldenApp Studio Inc. All rights reserved.
                 </p>
-                <div className="break">
-                  <br />
-                </div>
-                <a className="pl-lg-3 latoBold privacy" href="#">
-                  Privacy Policy
-                </a>
+                <p class="micro" style={{ fontSize: "15px" }}>
+                  GoldenApp Studio and the GoldenApp Studio logo are trademarks
+                  of GoldenApp Studio SAS, registered in the India, Australia,
+                  USA &amp; UK.
+                </p>
               </div>
+              <p class="micro">
+                <span class="micro-link">
+                  <a style={{ fontSize: "18px" }}>Terms</a>
+                </span>
+                <span class="micro-link sep">
+                  <a style={{ fontSize: "18px" }}>Privacy</a>
+                </span>
+
+                <span class="micro-link sep">
+                  <a
+                    class="js-privacy-settings-open"
+                    style={{ fontSize: "18px" }}
+                  >
+                    Cookie Preferences
+                  </a>
+                </span>
+              </p>
             </div>
           </div>
-        </div>
+        </footer>
       </footer>
     </div>
   );

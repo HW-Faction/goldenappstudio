@@ -12,7 +12,7 @@ class App extends React.Component {
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <div>
-          <HEadFirst />
+          <Header />
           <Link to="/" />
 
           <Link to="/contact" />

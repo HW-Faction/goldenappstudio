@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./AllCSS.css";
+import "./HEadFirst.css";
 
 export default class Header extends Component {
   state = {
@@ -28,6 +29,97 @@ export default class Header extends Component {
     return (
       <div>
         <header
+          className="header-std js-header transparent"
+          style={
+            this.state.isTop
+              ? { backgroundColor: "none" }
+              : { backgroundColor: "#000" }
+          }
+        >
+          <div className="inner">
+            <a className="" href="/">
+              <h1
+                id="GAS"
+                style={
+                  this.state.isTop
+                    ? { color: "#fff", fontFamily: "Pacifico" }
+                    : { color: "#fff" }
+                }
+              >
+                GoldenApp Studio
+              </h1>
+            </a>
+            <nav className="navigation navbar navbar-expand-md">
+              <button
+                className="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span className="navbar-toggler-icon" />
+              </button>
+              <div
+                className="collapse navbar-collapse"
+                id="navbarTogglerDemo01"
+              >
+                <ul className="desktop-list navbar-nav">
+                  <li className="desktop-list-item-page nav-item">
+                    <a
+                      href="/about"
+                      className="desktop-list-link nav-link"
+                      style={
+                        this.state.isTop ? { color: "none" } : { color: "#fff" }
+                      }
+                    >
+                      About Us
+                    </a>
+                  </li>
+                  <li className="desktop-list-item-page nav-item">
+                    <a
+                      href="#services"
+                      className="desktop-list-link nav-link"
+                      style={
+                        this.state.isTop ? { color: "none" } : { color: "#fff" }
+                      }
+                    >
+                      Services
+                    </a>
+                  </li>
+
+                  <li className="desktop-list-item-page nav-item">
+                    <a
+                      className="desktop-list-link nav-link"
+                      style={
+                        this.state.isTop ? { color: "none" } : { color: "#fff" }
+                      }
+                    >
+                      Portfolio
+                    </a>
+                  </li>
+                  <li className="desktop-list-item-page nav-item">
+                    <a
+                      href="/contact"
+                      target="_blank"
+                      rel="noopener nofollow noreferrer"
+                      className="desktop-list-link nav-link"
+                      style={
+                        this.state.isTop ? { color: "none" } : { color: "#fff" }
+                      }
+                    >
+                      Contact Us
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </header>
+
+        {/** Alternative header */}
+        {/* <header
           className="header-std js-header transparent"
           style={
             this.state.isTop
@@ -91,9 +183,10 @@ export default class Header extends Component {
               </div>
             </nav>
           </div>
-        </header>
+        </header> */}
 
-        <main className="main">
+        {/** Alternative HEadFirst */}
+        {/*  <main className="main">
           <div className="container">
             <div className="heading-container-padding row d-flex justify-content-center align-items-center">
               <div className="col-12 col-md-10 col-lg-12 content-slide-top-container ">
@@ -141,8 +234,8 @@ export default class Header extends Component {
                         {/* <!-- <p id="preSeedHover" className="text-white latoBold">
                                                 Are you pre-seed?
                                 </p> --> */}
-                      </div>
-                      <div
+
+        {/* <div
                         id="preSeedDescription"
                         style={{ display: "none" }}
                         className="col-lg-9 col-md-10 col-sm-12"
@@ -168,7 +261,7 @@ export default class Header extends Component {
           </div>
 
           <div className="badges-container content-slide-top" />
-        </main>
+                              </main> */}
       </div>
     );
   }

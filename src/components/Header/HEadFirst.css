@@ -362,7 +362,7 @@ a:hover {
     margin-bottom: 48px;
   }
   .features-hero .feature-hero-boxes-box {
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid #ddd;
     height: auto;
     min-height: 142px;
     padding: 16px 20px;
