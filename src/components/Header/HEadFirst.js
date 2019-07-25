@@ -29,6 +29,7 @@ export default function HEadFirst() {
                   name="Password storage &amp; autofill"
                   data-link-to="features-fill-personal-info"
                   data-slide-item="store-autofill"
+                  style={{ marginLeft: "35px" }}
                 >
                   <img
                     width="30"
