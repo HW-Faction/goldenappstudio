@@ -49,6 +49,15 @@ export default class Header extends Component {
                 GoldenApp Studio
               </h1>
             </a>
+            <img
+              style={{
+                width: 40,
+                height: 40,
+                marginLeft: 2,
+                backgroundColor: "#fff"
+              }}
+              src="https://image.flaticon.com/icons/svg/103/103983.svg"
+            />
             <nav className="navigation navbar navbar-expand-md">
               <button
                 className="navbar-toggler"
