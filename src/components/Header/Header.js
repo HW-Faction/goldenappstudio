@@ -52,11 +52,9 @@ export default class Header extends Component {
             <img
               style={{
                 width: 40,
-                height: 40,
-                marginLeft: 2,
-                backgroundColor: "#fff"
+                height: 40
               }}
-              src="https://image.flaticon.com/icons/svg/103/103983.svg"
+              src="https://image.flaticon.com/icons/svg/744/744480.svg"
             />
             <nav className="navigation navbar navbar-expand-md">
               <button
