@@ -83,7 +83,7 @@ export default function SecondaryMain() {
             style={{
               backgroundColor: "#fff",
               backgroundSize: "cover",
-              color: "#888",
+              color: "#222",
               paddingTop: 0,
               textAlign: "center"
             }}
@@ -125,13 +125,12 @@ export default function SecondaryMain() {
                   <h1 id="GAS0" style={{ fontFamily: "Pacifico" }}>
                     GoldenApp Studio
                   </h1>{" "}
-                  vs{" "}
                   <h1
                     style={{
                       fontFamily: "Pacifico"
                     }}
                   >
-                    Market
+                    Inc.
                   </h1>
                 </h1>
               </div>
@@ -141,22 +140,8 @@ export default function SecondaryMain() {
             {/** HELLO WORLD... */}
             <div className="main-header-container center-alignment">
               <header>
-                <h1>• We made software for creatures living on Earth</h1>
+                <h1>We made software for creatures living on Earth</h1>
               </header>
-              <ul>
-                <li>
-                  <p>• We do the work before deadline (✔)</p>
-                </li>
-                <li>
-                  <p>• We are very chaeper than other (✔)</p>
-                </li>
-                <li>
-                  <p>• We obey what we listen from you (✔)</p>
-                </li>
-                <li>
-                  <p>• We care about (✔)</p>
-                </li>
-              </ul>
             </div>
             {/** Get in touch */}
           </div>
