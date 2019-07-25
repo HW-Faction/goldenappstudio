@@ -75,7 +75,7 @@ export default class Header extends Component {
                 <ul className="desktop-list navbar-nav">
                   <li className="desktop-list-item-page nav-item">
                     <a
-                      href="/about"
+                      href="/goldenappstudio/about"
                       className="desktop-list-link nav-link"
                       style={
                         this.state.isTop ? { color: "none" } : { color: "#fff" }
@@ -108,7 +108,7 @@ export default class Header extends Component {
                   </li>
                   <li className="desktop-list-item-page nav-item">
                     <a
-                      href="/contact"
+                      href="/goldenappstudio/contact"
                       target="_blank"
                       rel="noopener nofollow noreferrer"
                       className="desktop-list-link nav-link"

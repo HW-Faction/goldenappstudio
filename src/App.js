@@ -15,12 +15,12 @@ class App extends React.Component {
           <Header />
           <Link to="/" />
 
-          <Link to="/contact" />
+          <Link to="/goldenappstudio/contact" />
 
-          <Link to="/about" />
+          <Link to="/goldenappstudio/about" />
           <Route exact path="/" component={MainApp} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/about" component={About} />
+          <Route path="/goldenappstudio/contact" component={Contact} />
+          <Route path="/goldenappstudio/about" component={About} />
         </div>
         <Footer />
       </Router>
