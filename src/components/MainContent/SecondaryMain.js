@@ -102,7 +102,7 @@ export default function SecondaryMain() {
                 className="line"
                 style={{
                   display: "block",
-                  borderTop: "3.5px solid #aaa",
+                  borderTop: "1px solid #000",
                   minWidth: "10px",
                   margin: "auto auto auto 0",
                   textAlign: "center",
@@ -136,7 +136,7 @@ export default function SecondaryMain() {
                 </h1>
               </div>
 
-              <div className="line" style={{ borderTop: "3.5px solid #aaa" }} />
+              <div className="line" style={{ borderTop: "1px solid #000" }} />
             </div>
             {/** HELLO WORLD... */}
             <div className="main-header-container center-alignment">
