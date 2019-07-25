@@ -1,5 +1,8 @@
 import React from "react";
 import "./SecondaryMain.css";
+
+import PrimaryMain from "./PrimaryMain";
+
 export default function SecondaryMain() {
   return (
     <div>
@@ -58,6 +61,9 @@ export default function SecondaryMain() {
           </div>
         </div>
       </section>
+      {/** Primary Main */}
+      <PrimaryMain />
+
       {/** Third Section of Secondary Main Folks */}
       <div
         id="competitors_page"
@@ -75,12 +81,9 @@ export default function SecondaryMain() {
             id="main-header"
             className="main-header"
             style={{
-              backgroundImage:
-                "url(" +
-                "https://www.acunetix.com/wp-content/uploads/2018/05/competitors-background.png" +
-                ")",
+              backgroundColor: "#fff",
               backgroundSize: "cover",
-              color: "#ffffff",
+              color: "#888",
               paddingTop: 0,
               textAlign: "center"
             }}
@@ -89,7 +92,6 @@ export default function SecondaryMain() {
               className="logo"
               style={{
                 padding: "25px 0 40px",
-
                 margin: "0 auto",
                 alignItems: "center",
                 justifyContent: "stretch",
@@ -100,7 +102,7 @@ export default function SecondaryMain() {
                 className="line"
                 style={{
                   display: "block",
-                  borderTop: "1px solid #fff",
+                  borderTop: "1px solid #aaa",
                   minWidth: "10px",
                   margin: "auto auto auto 0",
                   textAlign: "center",
@@ -111,7 +113,7 @@ export default function SecondaryMain() {
               <div
                 className="logo__container"
                 style={{
-                  border: "1px solid #ffffff",
+                  border: "1px solid #000",
                   display: "inline-block",
                   padding: "25px 35px"
                 }}
@@ -133,16 +135,29 @@ export default function SecondaryMain() {
                   </h1>
                 </h1>
               </div>
-              <div className="line" />
+              <div className="line" style={{ borderTop: "1px solid #aaa" }} />
             </div>
             {/** HELLO WORLD... */}
             <div className="main-header-container center-alignment">
               <header>
-                <h1>We made software for creatures living on Earth</h1>
+                <h1>• We made software for creatures living on Earth</h1>
               </header>
-              <p>We do your work as our own</p>
+              <ul>
+                <li>
+                  <p>• We do the work before deadline (✔)</p>
+                </li>
+                <li>
+                  <p>• We are very chaeper than other (✔)</p>
+                </li>
+                <li>
+                  <p>• We obey what we listen from you (✔)</p>
+                </li>
+                <li>
+                  <p>• We care about (✔)</p>
+                </li>
+              </ul>
             </div>
-            {/** Hats OFF */}
+            {/** Get in touch */}
           </div>
         </div>
       </div>
