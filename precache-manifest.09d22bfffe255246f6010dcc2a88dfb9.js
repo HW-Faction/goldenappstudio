@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2d82381b520ee7d4716216596584c8af",
+    "revision": "f095391355bc78a85efc508e770d7892",
     "url": "/goldenappstudio/index.html"
   },
   {
-    "revision": "cb7f27c373b3cb262de5",
+    "revision": "db77ddd5de17bc3735bd",
     "url": "/goldenappstudio/static/css/main.c506ea0e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/goldenappstudio/static/js/2.1fd9680a.chunk.js"
   },
   {
-    "revision": "cb7f27c373b3cb262de5",
-    "url": "/goldenappstudio/static/js/main.9b7977d4.chunk.js"
+    "revision": "db77ddd5de17bc3735bd",
+    "url": "/goldenappstudio/static/js/main.eb7339fc.chunk.js"
   },
   {
     "revision": "fb9ff9b08a8f1b9be8a9",
