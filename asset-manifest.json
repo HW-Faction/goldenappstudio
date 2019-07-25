@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/goldenappstudio/static/css/main.c506ea0e.chunk.css",
-    "main.js": "/goldenappstudio/static/js/main.6d5ee0d9.chunk.js",
-    "main.js.map": "/goldenappstudio/static/js/main.6d5ee0d9.chunk.js.map",
+    "main.js": "/goldenappstudio/static/js/main.9b7977d4.chunk.js",
+    "main.js.map": "/goldenappstudio/static/js/main.9b7977d4.chunk.js.map",
     "runtime~main.js": "/goldenappstudio/static/js/runtime~main.370585f5.js",
     "runtime~main.js.map": "/goldenappstudio/static/js/runtime~main.370585f5.js.map",
     "static/js/2.1fd9680a.chunk.js": "/goldenappstudio/static/js/2.1fd9680a.chunk.js",
     "static/js/2.1fd9680a.chunk.js.map": "/goldenappstudio/static/js/2.1fd9680a.chunk.js.map",
     "index.html": "/goldenappstudio/index.html",
-    "precache-manifest.34dc3c7d9b540da681d0bace3a70c55c.js": "/goldenappstudio/precache-manifest.34dc3c7d9b540da681d0bace3a70c55c.js",
+    "precache-manifest.91f1e9cea8e53b90f50056bbaabc6c7d.js": "/goldenappstudio/precache-manifest.91f1e9cea8e53b90f50056bbaabc6c7d.js",
     "service-worker.js": "/goldenappstudio/service-worker.js",
     "static/css/main.c506ea0e.chunk.css.map": "/goldenappstudio/static/css/main.c506ea0e.chunk.css.map"
   }
