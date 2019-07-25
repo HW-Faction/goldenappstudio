@@ -13,8 +13,8 @@ export default function Footer() {
                   © 2019 GoldenApp Studio Inc. All rights reserved.
                 </p>
                 <p className="micro" id="Two" style={{ fontSize: "15px" }}>
-                  All assets are trademarks of GoldenApp Studio SAS, registered
-                  in the India, Australia, USA &amp; UK.
+                  All assets on this site are trademarks of GoldenApp Studio
+                  Inc, registered in India, USA &amp; UK.
                 </p>
               </div>
               <p className="micro">
