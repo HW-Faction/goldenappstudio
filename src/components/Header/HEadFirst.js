@@ -149,8 +149,8 @@ export default class HEadFirst extends React.Component {
                       src="https://image.flaticon.com/icons/svg/25/25374.svg"
                       alt="Password storage &amp; autofill"
                       style={{
-                        width: 50,
-                        height: 50
+                        width: 35,
+                        height: 35
                       }}
                     />
                     <span className="box-text">Android App Development</span>
@@ -170,8 +170,8 @@ export default class HEadFirst extends React.Component {
                       src="https://image.flaticon.com/icons/svg/1508/1508788.svg"
                       alt="Secure notes &amp; documents"
                       style={{
-                        width: 50,
-                        height: 50
+                        width: 35,
+                        height: 35
                       }}
                     />
                     <span className="box-text">Software Testing</span>
@@ -190,8 +190,8 @@ export default class HEadFirst extends React.Component {
                       src="https://image.flaticon.com/icons/svg/69/69045.svg"
                       alt="Breach alerts &amp; monitoring"
                       style={{
-                        width: 50,
-                        height: 50
+                        width: 35,
+                        height: 35
                       }}
                     />
                     <span className="box-text">Web Development</span>
@@ -210,8 +210,8 @@ export default class HEadFirst extends React.Component {
                       src="https://www.flaticon.com/premium-icon/icons/svg/1674/1674613.svg"
                       alt="Secure sharing &amp; contacts"
                       style={{
-                        width: 50,
-                        height: 50
+                        width: 35,
+                        height: 35
                       }}
                     />
                     <span className="box-text">URL Shortning</span>
