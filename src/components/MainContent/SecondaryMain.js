@@ -102,7 +102,7 @@ export default function SecondaryMain() {
                 className="line"
                 style={{
                   display: "block",
-                  borderTop: "1px solid #aaa",
+                  borderTop: "3.5px solid #aaa",
                   minWidth: "10px",
                   margin: "auto auto auto 0",
                   textAlign: "center",
@@ -113,7 +113,7 @@ export default function SecondaryMain() {
               <div
                 className="logo__container"
                 style={{
-                  border: "1px solid #000",
+                  border: "4px solid #000",
                   display: "inline-block",
                   padding: "25px 35px"
                 }}
@@ -135,7 +135,8 @@ export default function SecondaryMain() {
                   </h1>
                 </h1>
               </div>
-              <div className="line" style={{ borderTop: "1px solid #aaa" }} />
+
+              <div className="line" style={{ borderTop: "3.5px solid #aaa" }} />
             </div>
             {/** HELLO WORLD... */}
             <div className="main-header-container center-alignment">
@@ -161,6 +162,8 @@ export default function SecondaryMain() {
           </div>
         </div>
       </div>
+
+      {/** What WE DO to SUrviVE */}
     </div>
   );
 }
