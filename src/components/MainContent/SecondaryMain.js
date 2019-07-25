@@ -1,5 +1,6 @@
 import React from "react";
 import "./SecondaryMain.css";
+import "./PrimaryMain.css";
 
 import PrimaryMain from "./PrimaryMain";
 
@@ -140,7 +141,14 @@ export default function SecondaryMain() {
             {/** HELLO WORLD... */}
             <div className="main-header-container center-alignment">
               <header>
-                <h1>We made software for creatures living on Earth</h1>
+                <h1
+                  id="Earth"
+                  style={{
+                    fontStyle: "italic"
+                  }}
+                >
+                  "We made software for creatures living on Earth."
+                </h1>
               </header>
             </div>
             {/** Get in touch */}

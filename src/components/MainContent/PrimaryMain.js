@@ -52,43 +52,43 @@ export default function PrimaryMain() {
         </div>
       </div>
 
-      <section class="std-shared-module std-three-boxes about-home-three-boxes-white">
-        <div class="inner bkg-white">
-          <div class="row" style={{ alignItems: "center" }}>
-            <div class="content-header">
-              <h2 class="title" style={{ textAlign: "center" }}>
+      <section className="std-shared-module std-three-boxes about-home-three-boxes-white">
+        <div className="inner bkg-white">
+          <div className="row" style={{ alignItems: "center" }}>
+            <div className="content-header">
+              <h2 className="title" style={{ textAlign: "center" }}>
                 Be part of the world shifting toward digitalisation
               </h2>
             </div>
           </div>
-          <div class="row">
+          <div className="row">
             <div
-              class="content-first"
+              className="content-first"
               style={{ margin: 0, padding: 0, marginBottom: 45 }}
             >
-              <h3 class="title-first">
+              <h3 className="title-first">
                 <span id="countUpAnim1">2.7</span> Million
               </h3>
-              <p class="description-first">
+              <p className="description-first">
                 apps on <strong>Play Store</strong>
               </p>
             </div>
-            <div class="content-second" style={{ margin: 0, padding: 0 }}>
-              <h3 class="title-second">
+            <div className="content-second" style={{ margin: 0, padding: 0 }}>
+              <h3 className="title-second">
                 <span id="countUpAnim2">330.6</span> Million
               </h3>
-              <p class="description-second">domain registered worldwide</p>
+              <p className="description-second">domain registered worldwide</p>
             </div>
-            <div class="content-third" style={{ margin: 0, padding: 0 }}>
-              <h3 class="title-third">
+            <div className="content-third" style={{ margin: 0, padding: 0 }}>
+              <h3 className="title-third">
                 <span id="countUpAnim3">3.8</span> Billion
               </h3>
-              <p class="description-third">
+              <p className="description-third">
                 searches on <strong>Google</strong> per day
               </p>
             </div>
           </div>
-          <div class="row" />
+          <div className="row" />
         </div>
       </section>
 
@@ -121,6 +121,26 @@ export default function PrimaryMain() {
             </div>
           </div>
           <div className="row" />
+        </div>
+      </section>
+
+      <section className="std-shared-module std-testimonial style-regular about-home-testimonial">
+        <div className="inner bkg-white" style={{ marginTop: 40 }}>
+          <div className="row" style={{ marginTop: 0, padding: 0 }}>
+            <div className="content">
+              <h2 className="title" style={{ marginLeft: 35 }} />
+
+              <p className="description" style={{ marginLeft: 35 }}>
+                “At least 55% of all businesses will die in the next 10 years…
+                if they don’t figure out how to change their entire business to
+                accommodate new technologies”.
+              </p>
+              <p className="signature" style={{ marginLeft: 35 }}>
+                — John Chambers | Executive Chairman, Cisco System
+              </p>
+            </div>
+            <div className="imagery js-lazy-bg-image js-fade-in" />
+          </div>
         </div>
       </section>
     </div>
