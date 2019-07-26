@@ -64,9 +64,12 @@ export default function SecondaryMain() {
       </section>
       {/** Primary Main */}
       <PrimaryMain />
+      <section>
+        <div id="LEADERS" />
+      </section>
 
       {/** We are Leaders babyyyyyy... */}
-      <section class="leadership-section py-5 ">
+      <section class="leadership-section py-5 " style={{ marginTop: 40 }}>
         <h1 class="text-left latoBlack heading pt-3 pb-2 text-center">
           Our Leadership
         </h1>
@@ -96,7 +99,7 @@ export default function SecondaryMain() {
                 <h5 class="card-title text-center" style={{ marginTop: 10 }}>
                   <strong>Ranbir Sharma</strong>
                 </h5>
-                <p class="card-text text-center">Co-Founder &amp; Chairman</p>
+                <p class="card-text text-center">Co-Founder, &amp; Chairman</p>
               </div>
             </div>
           </div>
