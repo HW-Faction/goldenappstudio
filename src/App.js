@@ -105,7 +105,6 @@ class App extends React.Component {
                     </li>
                     <li className="desktop-list-item-page nav-item">
                       <a
-                        href="#services"
                         className="desktop-list-link nav-link"
                         style={
                           this.state.isTop
@@ -119,6 +118,7 @@ class App extends React.Component {
 
                     <li className="desktop-list-item-page nav-item">
                       <a
+                        href="https://play.google.com/store/apps/developer?id=GoldenApp+Studio&hl=en"
                         className="desktop-list-link nav-link"
                         style={
                           this.state.isTop
@@ -126,7 +126,7 @@ class App extends React.Component {
                             : { color: "#fff" }
                         }
                       >
-                        Portfolio
+                        Our Apps
                       </a>
                     </li>
                     <li className="desktop-list-item-page nav-item">
