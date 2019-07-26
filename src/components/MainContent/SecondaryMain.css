@@ -1953,4 +1953,10 @@ a:hover {
     font-size: 10px !important;
     margin-left: 15px !important;
   }
+
+  #CARD6 {
+    margin: 0 auto !important;
+    float: none !important;
+    margin-bottom: 10px !important;
+  }
 }
