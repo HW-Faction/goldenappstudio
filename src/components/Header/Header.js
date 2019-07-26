@@ -38,7 +38,7 @@ export default class Header extends Component {
         >
           <div className="inner">
             <a className="" href="/">
-              <h1
+              <p
                 id="GAS"
                 style={
                   this.state.isTop
@@ -46,10 +46,11 @@ export default class Header extends Component {
                     : { color: "#fff" }
                 }
               >
-                GoldenApp Studio
-              </h1>
+                GoldenApp Studio <span class="short-text">Inc.</span>
+              </p>
             </a>
             <img
+              id="EARTH5"
               style={{
                 width: 40,
                 height: 40

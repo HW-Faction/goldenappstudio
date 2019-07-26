@@ -62,10 +62,7 @@ export default function PrimaryMain() {
             </div>
           </div>
           <div className="row">
-            <div
-              className="content-first"
-              style={{ margin: 0, padding: 0, marginBottom: 45 }}
-            >
+            <div className="content-first" style={{ margin: 0, padding: 0 }}>
               <h3 className="title-first">
                 <span id="countUpAnim1">2.7</span> Million
               </h3>
@@ -88,7 +85,7 @@ export default function PrimaryMain() {
               </p>
             </div>
           </div>
-          <div className="row" />
+          <div className="row" style={{ marginBottom: 45 }} />
         </div>
       </section>
 
@@ -101,19 +98,31 @@ export default function PrimaryMain() {
           </div>
 
           <div className="row">
-            <div className="content-first" style={{ margin: 0, padding: 0 }}>
+            <div
+              className="content-first"
+              id="FirstStuff"
+              style={{ margin: 0, padding: 0 }}
+            >
               <h3 className="title-first">Simplicity</h3>
               <p className="description-first">
                 Our goal is to integrate seamlessly into your life.
               </p>
             </div>
-            <div className="content-second" style={{ margin: 0, padding: 0 }}>
+            <div
+              className="content-second"
+              id="SecondStuff"
+              style={{ margin: 0, padding: 0 }}
+            >
               <h3 className="title-second">Universality</h3>
               <p className="description-second">
-                We work everywhere and for everyone
+                We do our work everywhere and for everyone
               </p>
             </div>
-            <div className="content-third" style={{ margin: 0, padding: 0 }}>
+            <div
+              className="content-third"
+              id="ThirdStuff"
+              style={{ margin: 0, padding: 0 }}
+            >
               <h3 className="title-third">Privacy</h3>
               <p className="description-third">
                 Your client's data are accessible to you and only you.

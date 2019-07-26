@@ -8,10 +8,16 @@ export default function HEadFirst() {
         <div className="inner">
           <div className="row">
             <div className="content">
-              <h1 className="title" style={{ marginTop: "100px" }}>
+              <h1
+                className="title"
+                style={{ marginTop: "100px", textAlign: "center" }}
+              >
                 We design, build &amp; maintain the super product
               </h1>
-              <h5 className="" style={{ marginTop: "15px" }}>
+              <h5
+                className=""
+                style={{ marginTop: "15px", textAlign: "center" }}
+              >
                 Solutions for big teams to achieve big dreams
               </h5>
               <div className="btn style-solid" style={{ marginTop: "25px" }}>

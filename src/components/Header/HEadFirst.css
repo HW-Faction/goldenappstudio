@@ -3991,4 +3991,19 @@ button::-moz-focus-inner {
 #GAS {
   font-family: "Pacifico", cursive;
   margin-left: 35px;
+  font-size: 40px;
+}
+
+@media (max-width: 30em) {
+  #GAS {
+    align-self: center;
+    margin-left: 0px !important;
+    font-size: 25px !important;
+  }
+}
+
+@media (max-width: 80em) {
+  #EARTH5 {
+    display: none;
+  }
 }
