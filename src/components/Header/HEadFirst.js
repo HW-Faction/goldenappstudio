@@ -21,11 +21,12 @@ export default function HEadFirst() {
                 Solutions for big teams to achieve big dreams
               </h5>
               <div className="btn style-solid" style={{ marginTop: "25px" }}>
-                <a className="el orange" href="/contact">
+                <a className="el orange" id="CONTaCT">
                   Contact Us
                 </a>
               </div>
               <div
+                id="BOXES"
                 className="feature-hero-boxes"
                 style={{ marginTop: "50px", marginBottom: "85px" }}
               >

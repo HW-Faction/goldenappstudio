@@ -3997,13 +3997,40 @@ button::-moz-focus-inner {
 @media (max-width: 30em) {
   #GAS {
     align-self: center;
-    margin-left: 0px !important;
+    margin-right: 20px !important;
     font-size: 25px !important;
+  }
+  #CONTaCT {
+    margin-left: 13px !important;
+  }
+  #BOXES {
+    margin-left: 35px !important;
   }
 }
 
 @media (max-width: 80em) {
   #EARTH5 {
     display: none;
+  }
+  #DoNotShow {
+    display: none;
+  }
+}
+
+@media (max-width: 25em) {
+  #GAS {
+    font-size: 20px !important;
+  }
+  #BOXES {
+    margin-left: 30px !important;
+  }
+}
+
+@media (max-width: 325px) {
+  #GAS {
+    font-size: 15px !important;
+  }
+  #BOXES {
+    margin-left: 10px !important;
   }
 }

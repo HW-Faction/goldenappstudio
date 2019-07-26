@@ -46,7 +46,7 @@ export default class Header extends Component {
                     : { color: "#fff" }
                 }
               >
-                GoldenApp Studio <span class="short-text">Inc.</span>
+                GoldenApp Studio Inc.
               </p>
             </a>
             <img
@@ -57,7 +57,7 @@ export default class Header extends Component {
               }}
               src="https://image.flaticon.com/icons/svg/744/744480.svg"
             />
-            <nav className="navigation navbar navbar-expand-md">
+            <nav className="navigation navbar navbar-expand-md" id="DoNotShow">
               <button
                 className="navbar-toggler"
                 type="button"

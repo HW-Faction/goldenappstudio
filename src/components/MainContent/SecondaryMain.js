@@ -49,12 +49,12 @@ export default function SecondaryMain() {
               <h2 className="title">
                 Trust GoldenApp Studio and your trust will not fade
               </h2>
-              <p className="description">
+              <p className="description" style={{ color: "#eee" }}>
                 GoldenApp Studio is the company-wide solution for app
                 development that everyone will actually love using.
               </p>
               <div className="btn style-outline">
-                <a className="el white" href="/business">
+                <a className="el white" id="BUTTON1">
                   Explore GoldenApp Studio Business
                 </a>
               </div>
