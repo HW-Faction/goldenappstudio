@@ -118,7 +118,7 @@ export default function SecondaryMain() {
                 <img
                   className="card-img-top text-center"
                   style={{ width: 200, height: 200 }}
-                  src="https://scontent.fdel13-1.fna.fbcdn.net/v/t1.0-9/26219635_2026224770948457_8779295547659615860_n.jpg?_nc_cat=109&_nc_oc=AQnqy9TUpawVEzVotoEIYoEedhVIF_F0WFdVL1nXNQiNpGi4NuvKd5FshPcowTh_qIw&_nc_ht=scontent.fdel13-1.fna&oh=36802fc72eac069bec67417588ef5b2c&oe=5DB019BB"
+                  src="https://github.com/HW-Faction/goldenappstudio/blob/master/src/assets/abc.jpg?raw=true"
                   alt="Card image cap"
                 />
                 <h5
