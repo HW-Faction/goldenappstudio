@@ -22,7 +22,6 @@ export default function PrimaryMain() {
               <div className="btn-wrap">
                 <a
                   className="btn-md"
-                  href="/wordpress/managed-hosting"
                   data-element-type="link"
                   data-element-label="learn_about_it_introducing_wp_pro"
                 >
@@ -75,7 +74,7 @@ export default function PrimaryMain() {
                 <span id="countUpAnim2">330.6</span> Million
               </h3>
               <p className="description-second text-center">
-                domain registered worldwide
+                <strong>domain</strong> registered worldwide
               </p>
             </div>
             <div className="content-third" style={{ margin: 0, padding: 0 }}>
