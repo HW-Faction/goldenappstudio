@@ -56,31 +56,33 @@ export default function PrimaryMain() {
         <div className="inner bkg-white">
           <div className="row" style={{ alignItems: "center" }}>
             <div className="content-header">
-              <h2 className="title" style={{ textAlign: "center" }}>
+              <h2 className="title text-center" style={{ textAlign: "center" }}>
                 Be part of the world shifting toward digitalisation
               </h2>
             </div>
           </div>
           <div className="row">
             <div className="content-first" style={{ margin: 0, padding: 0 }}>
-              <h3 className="title-first">
+              <h3 className="title-first text-center">
                 <span id="countUpAnim1">2.7</span> Million
               </h3>
-              <p className="description-first">
+              <p className="description-first text-center">
                 apps on <strong>Play Store</strong>
               </p>
             </div>
             <div className="content-second" style={{ margin: 0, padding: 0 }}>
-              <h3 className="title-second">
+              <h3 className="title-second text-center">
                 <span id="countUpAnim2">330.6</span> Million
               </h3>
-              <p className="description-second">domain registered worldwide</p>
+              <p className="description-second text-center">
+                domain registered worldwide
+              </p>
             </div>
             <div className="content-third" style={{ margin: 0, padding: 0 }}>
-              <h3 className="title-third">
+              <h3 className="title-third text-center">
                 <span id="countUpAnim3">3.8</span> Billion
               </h3>
-              <p className="description-third">
+              <p className="description-third text-center">
                 searches on <strong>Google</strong> per day
               </p>
             </div>

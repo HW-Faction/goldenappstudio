@@ -147,7 +147,6 @@ class App extends React.Component {
               </nav>
             </div>
           </header>
-
           {this.state.contact ? <Contact /> : <MainApp />}
         </div>
         <Footer />
