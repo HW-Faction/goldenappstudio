@@ -9,12 +9,14 @@ export default function HEadFirst() {
           <div className="row">
             <div className="content">
               <h1
+                id="TITLE11"
                 className="title"
-                style={{ marginTop: "100px", textAlign: "center" }}
+                style={{ textAlign: "center" }}
               >
                 We design, build &amp; maintain the super product
               </h1>
               <h5
+                id="TITLE1"
                 className=""
                 style={{ marginTop: "15px", textAlign: "center" }}
               >

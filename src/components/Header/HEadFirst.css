@@ -3994,6 +3994,10 @@ button::-moz-focus-inner {
   font-size: 40px;
 }
 
+#TITLE11 {
+  margin-top: 100px;
+}
+
 @media (max-width: 30em) {
   #GAS {
     align-self: center;
@@ -4005,6 +4009,13 @@ button::-moz-focus-inner {
   }
   #BOXES {
     margin-left: 35px !important;
+  }
+  #TITLE11 {
+    margin-left: 22px;
+    margin-top: 80px;
+  }
+  #TITLE1 {
+    margin-left: 17px;
   }
 }
 
