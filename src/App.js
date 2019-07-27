@@ -50,7 +50,7 @@ class App extends React.Component {
             }
           >
             <div className="inner">
-              <a className="" href="/">
+              <a className="" href="/goldenappstudio">
                 <p
                   id="GAS"
                   style={

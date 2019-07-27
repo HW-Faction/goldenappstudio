@@ -83,7 +83,7 @@ export default function SecondaryMain() {
           of clients.
         </p>
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-4" id="ANDCARD">
             <div
               class="card"
               style={{ marginLeft: 180, width: 240 }}
@@ -99,7 +99,7 @@ export default function SecondaryMain() {
                 <h5 class="card-title text-center" style={{ marginTop: 10 }}>
                   <strong>Ranbir Sharma</strong>
                 </h5>
-                <p class="card-text text-center">Co-Founder, &amp; Chairman</p>
+                <p class="card-text text-center">Co-Founder &amp; Chairman</p>
               </div>
             </div>
           </div>
