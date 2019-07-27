@@ -3599,12 +3599,15 @@ a:hover {
 }
 .meet.home .icon-1 .icon-holder:before {
   background-image: url(https://d38muu3h4xeqr1.cloudfront.net/website/static/WN-1548/images/icons/icon-password-storage-teal.svg);
+  margin-top: 20px;
 }
 .meet.home .icon-2 .icon-holder:before {
   background-image: url(https://d38muu3h4xeqr1.cloudfront.net/website/static/WN-1548/images/icons/icon-shield-large-teal.svg);
+  margin-top: 20px;
 }
 .meet.home .icon-3 .icon-holder:before {
   background-image: url(https://d38muu3h4xeqr1.cloudfront.net/website/static/WN-1548/images/icons/icon-form-autofill-teal.svg);
+  margin-top: 20px;
 }
 .meet .conclusion,
 .meet .intro {
