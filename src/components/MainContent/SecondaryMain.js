@@ -69,12 +69,12 @@ export default function SecondaryMain() {
       </section>
 
       {/** We are Leaders babyyyyyy... */}
-      <section class="leadership-section py-5 " style={{ marginTop: 40 }}>
-        <h1 class="text-left latoBlack heading pt-3 pb-2 text-center">
+      <section className="leadership-section py-5 " style={{ marginTop: 40 }}>
+        <h1 className="text-left latoBlack heading pt-3 pb-2 text-center">
           Our Leadership
         </h1>
         <p
-          class="latoRegular description mb-5 pt-1 text-center"
+          className="latoRegular description mb-5 pt-1 text-center"
           style={{ marginLeft: 50, marginRight: 50 }}
         >
           Together we are smarter than each of us. We disagree passionately,
@@ -82,56 +82,71 @@ export default function SecondaryMain() {
           towards becoming the most preferred tech partner for our growing set
           of clients.
         </p>
-        <div class="row">
-          <div class="col-sm-4" id="ANDCARD">
+        <div className="row">
+          <div className="col-sm-4" id="ANDCARD">
             <div
-              class="card"
+              className="card"
               style={{ marginLeft: 180, width: 240 }}
               id="CARD6"
             >
-              <div class="card-body">
+              <div className="card-body">
                 <img
-                  class="card-img-top text-center"
+                  className="card-img-top text-center"
                   style={{ width: 200, height: 200 }}
                   src="https://scontent.fdel13-1.fna.fbcdn.net/v/t1.0-9/26168397_2023638257873775_8812651868354436867_n.jpg?_nc_cat=103&_nc_oc=AQl-_YyMXf6YhB58BLZi95xHAS4l4KPKogWBmsmVVAW6HyZspttrGS625k9iHE--wdQ&_nc_ht=scontent.fdel13-1.fna&oh=b03cceb5a62ce26211650b8ea0c06fa9&oe=5DB2D081"
                   alt="Card image cap"
                 />
-                <h5 class="card-title text-center" style={{ marginTop: 10 }}>
+                <h5
+                  className="card-title text-center"
+                  style={{ marginTop: 10 }}
+                >
                   <strong>Ranbir Sharma</strong>
                 </h5>
-                <p class="card-text text-center">Co-Founder &amp; Chairman</p>
+                <p className="card-text text-center">
+                  Co-Founder &amp; Chairman
+                </p>
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="card" style={{ marginLeft: 95, width: 240 }} id="CARD6">
-              <div class="card-body">
+          <div className="col-sm-4">
+            <div
+              className="card"
+              style={{ marginLeft: 95, width: 240 }}
+              id="CARD6"
+            >
+              <div className="card-body">
                 <img
-                  class="card-img-top text-center"
+                  className="card-img-top text-center"
                   style={{ width: 200, height: 200 }}
                   src="https://scontent.fdel13-1.fna.fbcdn.net/v/t1.0-9/26219635_2026224770948457_8779295547659615860_n.jpg?_nc_cat=109&_nc_oc=AQnqy9TUpawVEzVotoEIYoEedhVIF_F0WFdVL1nXNQiNpGi4NuvKd5FshPcowTh_qIw&_nc_ht=scontent.fdel13-1.fna&oh=36802fc72eac069bec67417588ef5b2c&oe=5DB019BB"
                   alt="Card image cap"
                 />
-                <h5 class="card-title text-center" style={{ marginTop: 10 }}>
+                <h5
+                  className="card-title text-center"
+                  style={{ marginTop: 10 }}
+                >
                   <strong>Aman Kaushik</strong>
                 </h5>
-                <p class="card-text text-center">Co-Founder &amp; CEO</p>
+                <p className="card-text text-center">Co-Founder &amp; CEO</p>
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="card" style={{ width: 240 }} id="CARD6">
-              <div class="card-body">
+          <div className="col-sm-4">
+            <div className="card" style={{ width: 240 }} id="CARD6">
+              <div className="card-body">
                 <img
-                  class="card-img-top text-center"
+                  className="card-img-top text-center"
                   style={{ width: 200, height: 200 }}
                   src="https://scontent.fdel13-1.fna.fbcdn.net/v/t1.0-1/c0.0.160.160a/p160x160/43604370_302515393667736_7542026949040799744_n.jpg?_nc_cat=106&_nc_oc=AQnpslqEfhs9DIHga4XiR0nBziwlqDiDKQDF0eZT0qd07YjO12OhjRtYLL0sEDCL0uU&_nc_ht=scontent.fdel13-1.fna&oh=3ede0ac2792ec35b8fc8cd69263ae0ce&oe=5DA23FCC"
                   alt="Card image cap"
                 />
-                <h5 class="card-title text-center" style={{ marginTop: 10 }}>
+                <h5
+                  className="card-title text-center"
+                  style={{ marginTop: 10 }}
+                >
                   <strong>Pankaj Attri</strong>
                 </h5>
-                <p class="card-text text-center">Chief Operating Officer</p>
+                <p className="card-text text-center">Chief Operating Officer</p>
               </div>
             </div>
           </div>
