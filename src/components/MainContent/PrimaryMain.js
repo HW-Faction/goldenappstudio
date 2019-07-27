@@ -16,8 +16,8 @@ export default function PrimaryMain() {
             <div className="col">
               <h2 style={{ color: "#666" }}>Grow your business with us</h2>
               <p>
-                Did you know, by digitalise the system, the growth rate become
-                30%+ ?
+                D0 you know, by digitalise the business, the growth rate become
+                45%+ ?
               </p>
               <div className="btn-wrap">
                 <a

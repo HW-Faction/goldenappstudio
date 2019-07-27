@@ -1487,7 +1487,8 @@ p{margin-bottom:8px;margin-top:8px;font-size:18px;line-height:24px;}
 
 @media (max-width: 80em){
   #FirstStuff {
-    margin-left: 63px !important
+    margin-left: 63px !important;
+   
   }
   #SecondStuff {
     margin-left: 64px !important
