@@ -1297,9 +1297,9 @@ p{margin-bottom:8px;margin-top:8px;font-size:18px;line-height:24px;}
 @media (min-width:35.5em){
 .std-three-boxes.about-home-three-boxes-teal .title-first:before,.std-three-boxes.about-home-three-boxes-teal .title-second:before,.std-three-boxes.about-home-three-boxes-teal .title-third:before{width:64px;height:64px;left:-80px;top:-18px;}
 }
-.std-three-boxes.about-home-three-boxes-teal .title-first:before{background-image:url(https://d38muu3h4xeqr1.cloudfront.net/website/static/WN-1548/pages/about/images/icon-lightbulb.svg);}
-.std-three-boxes.about-home-three-boxes-teal .title-second:before{background-image:url(https://d38muu3h4xeqr1.cloudfront.net/website/static/WN-1548/pages/about/images/icon-group.svg);}
-.std-three-boxes.about-home-three-boxes-teal .title-third:before{background-image:url(https://d38muu3h4xeqr1.cloudfront.net/website/static/WN-1548/pages/about/images/icon-shield-xlarge-teal.svg);}
+.std-three-boxes.about-home-three-boxes-teal .title-first:before{background-image:url(https://d38muu3h4xeqr1.cloudfront.net/website/static/WN-1548/pages/about/images/icon-lightbulb.svg); margin-top: 20px}
+.std-three-boxes.about-home-three-boxes-teal .title-second:before{background-image:url(https://d38muu3h4xeqr1.cloudfront.net/website/static/WN-1548/pages/about/images/icon-group.svg); margin-top: 20px}
+.std-three-boxes.about-home-three-boxes-teal .title-third:before{background-image:url(https://d38muu3h4xeqr1.cloudfront.net/website/static/WN-1548/pages/about/images/icon-shield-xlarge-teal.svg); margin-top: 20px}
 @media (min-width:64em){
 .std-three-boxes.about-home-three-boxes-teal .title-first:before,.std-three-boxes.about-home-three-boxes-teal .title-second:before,.std-three-boxes.about-home-three-boxes-teal .title-third:before{width:80px;height:80px;content:'';display:block;border-top:none;background-position:center center;background-repeat:no-repeat;background-size:auto;position:inherit;left:0;top:0;}
 .std-three-boxes.about-home-three-boxes-teal .title-first::before,.std-three-boxes.about-home-three-boxes-teal .title-second::before,.std-three-boxes.about-home-three-boxes-teal .title-third::before{margin-bottom:16px;}
