@@ -118,7 +118,7 @@ export default function SecondaryMain() {
                 <img
                   className="card-img-top text-center"
                   style={{ width: 200, height: 200 }}
-                  src="https://github.com/HW-Faction/goldenappstudio/blob/master/src/assets/abc.jpg?raw=true"
+                  src="https://github.com/HW-Faction/Auto-Email-Sender/blob/master/IMG-20190727-WA0027%20(copy).jpg?raw=true"
                   alt="Card image cap"
                 />
                 <h5
