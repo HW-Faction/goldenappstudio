@@ -117,8 +117,8 @@ export default function SecondaryMain() {
               <div className="card-body">
                 <img
                   className="card-img-top text-center"
-                  style={{ width: 200, height: 200 }}
-                  src="https://github.com/HW-Faction/Auto-Email-Sender/blob/master/IMG-20190727-WA0027%20(copy).jpg?raw=true"
+                  style={{ width: "200px", height: "200px" }}
+                  src="https://github.com/HW-Faction/photos/blob/master/abc.jpg?raw=true"
                   alt="Card image cap"
                 />
                 <h5
