@@ -92,8 +92,8 @@ export default function SecondaryMain() {
               <div className="card-body">
                 <img
                   className="card-img-top text-center"
-                  style={{ width: 200, height: 200 }}
-                  src="https://scontent.fdel13-1.fna.fbcdn.net/v/t1.0-9/26168397_2023638257873775_8812651868354436867_n.jpg?_nc_cat=103&_nc_oc=AQl-_YyMXf6YhB58BLZi95xHAS4l4KPKogWBmsmVVAW6HyZspttrGS625k9iHE--wdQ&_nc_ht=scontent.fdel13-1.fna&oh=b03cceb5a62ce26211650b8ea0c06fa9&oe=5DB2D081"
+                  style={{ width: 180, height: 200, marginLeft: 10 }}
+                  src="https://scontent.fdel13-1.fna.fbcdn.net/v/t1.0-9/68254277_2402951089942488_1352412058217349120_n.jpg?_nc_cat=101&_nc_oc=AQmhWVxn74Dninj86kA86K_JP23ztFXecifbpXKhq_O9jcHm5gdFvkjvN_iUCJWwpq0&_nc_ht=scontent.fdel13-1.fna&oh=7ce0f2a303f9998e2d72fdc383e7ce48&oe=5DEC5BAA"
                   alt="Card image cap"
                 />
                 <h5
@@ -146,7 +146,7 @@ export default function SecondaryMain() {
                 >
                   <strong>Pankaj Attri</strong>
                 </h5>
-                <p className="card-text text-center">Chief Operating Officer</p>
+                <p className="card-text text-center">Chief Financial Officer</p>
               </div>
             </div>
           </div>
