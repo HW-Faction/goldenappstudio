@@ -161,7 +161,7 @@ export default class HEadFirst extends React.Component {
           </Modal.Header>
           <Modal.Body>
             <h6 style={{ fontFamily: "monospace" }}>
-              <strong>Email: goldenappstudio@gmail.com</strong>
+              <strong>Email: studiogoldenapp@gmail.com</strong>
             </h6>
             <h6 style={{ fontFamily: "monospace" }}>
               <strong>Phone: +91 9518822841</strong>
