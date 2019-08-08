@@ -93,7 +93,7 @@ export default function SecondaryMain() {
                 <img
                   className="card-img-top text-center"
                   style={{ width: 180, height: 200, marginLeft: 10 }}
-                  src="https://scontent.fdel13-1.fna.fbcdn.net/v/t1.0-9/68254277_2402951089942488_1352412058217349120_n.jpg?_nc_cat=101&_nc_oc=AQmhWVxn74Dninj86kA86K_JP23ztFXecifbpXKhq_O9jcHm5gdFvkjvN_iUCJWwpq0&_nc_ht=scontent.fdel13-1.fna&oh=7ce0f2a303f9998e2d72fdc383e7ce48&oe=5DEC5BAA"
+                  src="https://scontent.fdel13-1.fna.fbcdn.net/v/t1.0-9/67813321_2403606083210322_9198366080127467520_n.jpg?_nc_cat=108&_nc_oc=AQkiv5znWrjEtRtHS7X8nD7aGQdMRKTwACWpZBxhaVM3377LMjW87UjhsebvnKxmzmo&_nc_ht=scontent.fdel13-1.fna&oh=4ea05fe39f8aad97ca66bb0f520cd258&oe=5DCF76A4"
                   alt="Card image cap"
                 />
                 <h5
@@ -136,8 +136,8 @@ export default function SecondaryMain() {
               <div className="card-body">
                 <img
                   className="card-img-top text-center"
-                  style={{ width: 200, height: 200 }}
-                  src="https://scontent.fdel13-1.fna.fbcdn.net/v/t1.0-1/c0.0.160.160a/p160x160/43604370_302515393667736_7542026949040799744_n.jpg?_nc_cat=106&_nc_oc=AQnpslqEfhs9DIHga4XiR0nBziwlqDiDKQDF0eZT0qd07YjO12OhjRtYLL0sEDCL0uU&_nc_ht=scontent.fdel13-1.fna&oh=3ede0ac2792ec35b8fc8cd69263ae0ce&oe=5DA23FCC"
+                  style={{ width: 180, height: 200, marginLeft: 10 }}
+                  src="https://scontent.fdel13-1.fna.fbcdn.net/v/t1.0-9/67753140_2403606119876985_2414383760565862400_n.jpg?_nc_cat=109&_nc_oc=AQl9gJ2dIWU9D57iOkU4VjqbXCl5MtXX7sLmQXFmukth67wclLT-sPHzuytK_kshH5w&_nc_ht=scontent.fdel13-1.fna&oh=759aeabdee91ca396db76a2f1864e9ac&oe=5DE44F1B"
                   alt="Card image cap"
                 />
                 <h5
